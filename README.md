@@ -9,7 +9,8 @@ Base on yundt's dotfiles idea.
 ## Links
 
 	ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
+	ln -s ~/.dotfiles/.oh-my-zsh ~/.oh-my-zsh
 
-In ~/.zshrc add lines:
+In ~/.zshrc add line:
 
 	source ~/.dotfiles/.zshrc
