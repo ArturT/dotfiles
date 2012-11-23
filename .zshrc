@@ -11,8 +11,6 @@ ZSH_THEME="tjkirch"
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias lsl="ls -alh"
-alias gd="git diff"
-alias gs="git status"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -61,3 +59,6 @@ bindkey '^N' history-search-forward
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 setopt AUTO_CD
+
+# load aliases etc from bash profile
+source ~/.bash_profile
