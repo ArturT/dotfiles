@@ -10,6 +10,7 @@ Base on yundt's dotfiles idea.
 
 	ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
 	ln -s ~/.dotfiles/.oh-my-zsh ~/.oh-my-zsh
+	ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 
 In ~/.zshrc add line:
 
