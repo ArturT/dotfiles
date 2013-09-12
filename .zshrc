@@ -63,5 +63,7 @@ bindkey '^N' history-search-forward
 
 setopt AUTO_CD
 
+source ~/.dotfiles/git-flow-completion.zsh
+
 # load aliases etc from bash profile
 source ~/.bash_profile
