@@ -41,12 +41,6 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=$PATH # defaults to what's in /etc/zshenv
 
-PATH=~/bin:/usr/local/mysql/bin:/bin:/usr/local/bin:"${PATH}"
-export PATH
-
-NODE_PATH=/usr/local/lib/node_modules:"${PATH}"
-export NODE_PATH
-
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export EDITOR="vim"
