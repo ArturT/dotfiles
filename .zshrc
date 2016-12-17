@@ -44,7 +44,7 @@ export PATH=$PATH # defaults to what's in /etc/zshenv
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export EDITOR="vim"
-bindkey -v 
+bindkey -v
 
 # vi style incremental search
 bindkey '^R' history-incremental-search-backward
