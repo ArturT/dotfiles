@@ -38,6 +38,11 @@ plugins=(git bundler cap gem heroku thor rvm)
 
 source $ZSH/oh-my-zsh.sh
 
+# Customize to your needs...
+export PATH=$PATH # defaults to what's in /etc/zshenv
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
 export EDITOR="vim"
 bindkey -v
 
@@ -46,6 +51,8 @@ bindkey '^R' history-incremental-search-backward
 bindkey '^S' history-incremental-search-forward
 bindkey '^P' history-search-backward
 bindkey '^N' history-search-forward
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 setopt AUTO_CD
 
