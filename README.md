@@ -24,3 +24,18 @@ Install:
 Change shell to zsh:
 
     $ chsh -s /bin/zsh
+
+# FAQ
+
+In case of error:
+
+```
+cddyld: Library not loaded: /usr/local/lib/libgdbm.4.dylib
+  Referenced from: /usr/local/bin/zsh
+  Reason: image not found
+```
+
+Please do:
+
+    $ brew upgrade zsh
+
