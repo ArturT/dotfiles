@@ -57,6 +57,8 @@ bindkey '^N' history-search-forward
 
 setopt AUTO_CD
 
+export LC_ALL=en_US.UTF-8
+
 source ~/.dotfiles/git-flow-completion.zsh
 
 # load aliases etc from bash profile
