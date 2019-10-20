@@ -24,8 +24,8 @@
   untracked = cyan
 
 [user]
-  name = Artur Trzop
-  email = arturtrzop@gmail.com
+	name = Artur Trzop
+	email = arturtrzop@gmail.com
 
 [push]
   default = current
@@ -41,7 +41,7 @@
   required = true
 
 [filter "lfs"]
-  process = git-lfs filter-process
-  required = true
-  clean = git-lfs clean -- %f
-  smudge = git-lfs smudge -- %f
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
